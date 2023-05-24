@@ -1,0 +1,7 @@
+/.vscode
+/corpora
+/neural_net
+/ml_model/corpora
+*pycache*
+*.zip
+glove.6B.200d.txt
