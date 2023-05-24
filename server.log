@@ -1,0 +1,3966 @@
+django.server INFO@[13/Feb/2023 08:45:28]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[13/Feb/2023 08:45:36,251]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[13/Feb/2023 08:45:36]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[13/Feb/2023 08:45:37]: 
+	[m"GET / HTTP/1.1" 200 474[0m
+
+django.server INFO@[13/Feb/2023 08:45:39]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[13/Feb/2023 08:45:47]: 
+	[m"POST /predict/ HTTP/1.1" 200 731[0m
+
+django.server INFO@[13/Feb/2023 08:55:09]: 
+	[m"POST /predict/ HTTP/1.1" 200 731[0m
+
+django.server INFO@[13/Feb/2023 08:59:54]: 
+	[m"POST /predict/ HTTP/1.1" 200 731[0m
+
+django.server INFO@[13/Feb/2023 08:59:59]: 
+	[m"POST /predict/ HTTP/1.1" 200 731[0m
+
+django.server INFO@[13/Feb/2023 09:02:14]: 
+	[m"POST /predict/ HTTP/1.1" 200 731[0m
+
+django.server INFO@[13/Feb/2023 09:03:48]: 
+	[m"POST /predict/ HTTP/1.1" 200 731[0m
+
+django.server ERROR@[13/Feb/2023 09:03:58]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 80025[0m
+
+django.server INFO@[13/Feb/2023 09:05:01]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[13/Feb/2023 09:05:21]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719933[0m
+
+django.server ERROR@[13/Feb/2023 09:09:10]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 110808[0m
+
+django.server INFO@[13/Feb/2023 09:09:58]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server ERROR@[13/Feb/2023 09:10:07]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 110993[0m
+
+django.server INFO@[13/Feb/2023 09:32:31]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[14/Feb/2023 20:42:56]: 
+	[m"GET / HTTP/1.1" 200 474[0m
+
+django.server INFO@[14/Feb/2023 20:42:56]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 969[0m
+
+user_logger INFO@[14/Feb/2023 20:43:47,049]: 
+	User 'test' logged out.
+
+django.server INFO@[14/Feb/2023 20:43:47]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[14/Feb/2023 20:43:47]: 
+	[m"GET / HTTP/1.1" 200 329[0m
+
+django.server INFO@[14/Feb/2023 20:43:48]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[14/Feb/2023 20:43:54,339]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[14/Feb/2023 20:43:54]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[14/Feb/2023 20:43:54]: 
+	[m"GET / HTTP/1.1" 200 512[0m
+
+django.server INFO@[14/Feb/2023 20:43:58]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 20:44:15]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 20:44:17]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 20:44:17]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 965[0m
+
+django.server WARNING@[14/Feb/2023 20:44:18]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3052[0m
+
+django.server INFO@[14/Feb/2023 20:58:56]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[14/Feb/2023 20:58:57]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 965[0m
+
+django.server INFO@[14/Feb/2023 20:58:59]: 
+	[m"GET /data/ HTTP/1.1" 200 516[0m
+
+django.server INFO@[14/Feb/2023 20:59:38]: 
+	[m"GET /data/ HTTP/1.1" 200 516[0m
+
+django.server INFO@[14/Feb/2023 21:00:02]: 
+	[m"GET /data/ HTTP/1.1" 200 516[0m
+
+django.server INFO@[14/Feb/2023 21:00:05]: 
+	[m"GET /data/ HTTP/1.1" 200 516[0m
+
+django.server INFO@[14/Feb/2023 21:00:05]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 973[0m
+
+django.server WARNING@[14/Feb/2023 21:00:06]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:00:22]: 
+	[m"GET /data/ HTTP/1.1" 200 523[0m
+
+django.server INFO@[14/Feb/2023 21:00:22]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:00:50]: 
+	[m"GET /data/ HTTP/1.1" 200 559[0m
+
+django.server INFO@[14/Feb/2023 21:00:50]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:00:59]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[14/Feb/2023 21:00:59]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:01:22]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:01:22]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:01:44]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:01:45]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:01:59]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:02:00]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 957[0m
+
+django.server WARNING@[14/Feb/2023 21:02:00]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:02:07]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:02:07]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 973[0m
+
+django.server WARNING@[14/Feb/2023 21:02:07]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:02:19]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:02:20]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 973[0m
+
+django.server WARNING@[14/Feb/2023 21:02:20]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:02:38]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:02:38]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 973[0m
+
+django.server WARNING@[14/Feb/2023 21:02:39]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:02:48]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:02:48]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 973[0m
+
+django.server WARNING@[14/Feb/2023 21:02:48]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:02:57]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:02:57]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 963[0m
+
+django.server WARNING@[14/Feb/2023 21:02:57]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:03:11]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:03:12]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 963[0m
+
+django.server WARNING@[14/Feb/2023 21:03:12]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3217[0m
+
+django.server INFO@[14/Feb/2023 21:03:14]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[14/Feb/2023 21:03:14]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:03:16]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:03:17]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:03:55]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:03:55]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 975[0m
+
+django.server INFO@[14/Feb/2023 21:04:02]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:04:02]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 976[0m
+
+django.server INFO@[14/Feb/2023 21:04:08]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:04:08]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 976[0m
+
+django.server INFO@[14/Feb/2023 21:04:14]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:04:14]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 976[0m
+
+django.server INFO@[14/Feb/2023 21:05:00]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:05:00]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 976[0m
+
+django.server INFO@[14/Feb/2023 21:05:09]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[14/Feb/2023 21:05:10]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:05:11]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:05:12]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:05:17]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[14/Feb/2023 21:05:18]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:05:19]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:05:20]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:05:30]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:05:30]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 979[0m
+
+django.server INFO@[14/Feb/2023 21:05:42]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:05:43]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 972[0m
+
+django.server INFO@[14/Feb/2023 21:05:53]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:05:54]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 970[0m
+
+django.server INFO@[14/Feb/2023 21:06:03]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:06:03]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 977[0m
+
+django.server INFO@[14/Feb/2023 21:06:06]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:06:07]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 976[0m
+
+django.server INFO@[14/Feb/2023 21:06:18]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[14/Feb/2023 21:06:19]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 977[0m
+
+django.server INFO@[14/Feb/2023 21:06:25]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[14/Feb/2023 21:06:26]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:06:27]: 
+	[m"GET /data/ HTTP/1.1" 200 565[0m
+
+django.server INFO@[14/Feb/2023 21:06:27]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:06:45]: 
+	[m"GET /data/ HTTP/1.1" 200 578[0m
+
+django.server INFO@[14/Feb/2023 21:06:45]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[14/Feb/2023 21:08:48]: 
+	[35;1m"GET /data/ HTTP/1.1" 500 178410[0m
+
+django.server INFO@[14/Feb/2023 21:09:20]: 
+	[m"GET /data/ HTTP/1.1" 200 583[0m
+
+django.server INFO@[14/Feb/2023 21:09:21]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:10:23]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[14/Feb/2023 21:10:23]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[14/Feb/2023 21:10:28]: 
+	[m"GET /data/ HTTP/1.1" 200 583[0m
+
+django.server INFO@[14/Feb/2023 21:10:32]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[15/Feb/2023 10:12:19]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[15/Feb/2023 10:12:19]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[15/Feb/2023 10:12:24]: 
+	[m"GET /data/ HTTP/1.1" 200 583[0m
+
+django.server WARNING@[15/Feb/2023 10:15:56]: 
+	[33m"GET /data/text HTTP/1.1" 404 3211[0m
+
+django.server INFO@[15/Feb/2023 10:16:59]: 
+	[m"GET /data/text HTTP/1.1" 200 30[0m
+
+django.server ERROR@[15/Feb/2023 10:22:09]: 
+	[35;1m"GET /data/text HTTP/1.1" 500 83777[0m
+
+django.server ERROR@[15/Feb/2023 10:22:49]: 
+	[35;1m"GET /data/text HTTP/1.1" 500 81987[0m
+
+django.server ERROR@[15/Feb/2023 10:24:08]: 
+	[35;1m"GET /data/text HTTP/1.1" 500 81987[0m
+
+django.server WARNING@[15/Feb/2023 10:28:16]: 
+	[33m"GET /data/text HTTP/1.1" 404 3211[0m
+
+django.server INFO@[15/Feb/2023 10:28:39]: 
+	[m"GET /data/text HTTP/1.1" 200 5286924[0m
+
+django.server INFO@[15/Feb/2023 10:30:35]: 
+	[m"GET /data/text HTTP/1.1" 200 2169616[0m
+
+django.server ERROR@[15/Feb/2023 10:31:55]: 
+	[35;1m"GET /data/text HTTP/1.1" 500 83813[0m
+
+django.server ERROR@[15/Feb/2023 10:34:10]: 
+	[35;1m"GET /data/text HTTP/1.1" 500 69329[0m
+
+django.server ERROR@[15/Feb/2023 10:34:37]: 
+	[35;1m"GET /data/text HTTP/1.1" 500 74841[0m
+
+django.server INFO@[15/Feb/2023 10:35:04]: 
+	[m"GET /data/text HTTP/1.1" 200 2069616[0m
+
+django.server INFO@[15/Feb/2023 10:35:56]: 
+	[m"GET /data/text HTTP/1.1" 200 2069616[0m
+
+django.server INFO@[15/Feb/2023 10:37:41]: 
+	[m"GET /data/text HTTP/1.1" 200 2069616[0m
+
+django.server INFO@[15/Feb/2023 11:04:54]: 
+	[m"GET /data/text HTTP/1.1" 200 2069616[0m
+
+django.server ERROR@[15/Feb/2023 11:08:58]: 
+	[35;1m"GET /data/counter HTTP/1.1" 500 290706[0m
+
+django.server ERROR@[15/Feb/2023 11:11:54]: 
+	[35;1m"GET /data/counter HTTP/1.1" 500 202099[0m
+
+django.server ERROR@[15/Feb/2023 11:12:16]: 
+	[35;1m"GET /data/counter HTTP/1.1" 500 283012[0m
+
+django.server INFO@[15/Feb/2023 11:14:31]: 
+	[m"GET /data/counter HTTP/1.1" 200 259[0m
+
+django.server INFO@[15/Feb/2023 11:14:44]: 
+	[m"GET /data/counter HTTP/1.1" 200 1184085[0m
+
+django.server INFO@[15/Feb/2023 11:16:50]: 
+	[m"GET /data/counter HTTP/1.1" 200 1184085[0m
+
+django.server ERROR@[15/Feb/2023 11:19:16]: 
+	[35;1m"GET /data/counter HTTP/1.1" 500 299454[0m
+
+django.server ERROR@[15/Feb/2023 11:20:00]: 
+	[35;1m"GET /data/counter HTTP/1.1" 500 291001[0m
+
+django.server INFO@[15/Feb/2023 11:20:36]: 
+	[m"GET /data/counter HTTP/1.1" 200 1184085[0m
+
+django.server INFO@[15/Feb/2023 11:21:12]: 
+	[m"GET /data/counter HTTP/1.1" 200 1184085[0m
+
+django.server INFO@[15/Feb/2023 11:21:12]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 960[0m
+
+django.server WARNING@[15/Feb/2023 11:21:14]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3570[0m
+
+django.server WARNING@[15/Feb/2023 12:05:53]: 
+	[33m"GET /data/negation HTTP/1.1" 404 3751[0m
+
+django.server ERROR@[15/Feb/2023 12:06:28]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 69310[0m
+
+django.server ERROR@[15/Feb/2023 12:07:23]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 253575[0m
+
+django.server INFO@[15/Feb/2023 12:09:16]: 
+	[m"GET /data/negation HTTP/1.1" 200 1803471[0m
+
+django.server INFO@[15/Feb/2023 12:09:17]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[15/Feb/2023 12:11:15]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 74155[0m
+
+django.server ERROR@[15/Feb/2023 12:11:44]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 74163[0m
+
+django.server INFO@[15/Feb/2023 12:12:36]: 
+	[m"GET /data/negation HTTP/1.1" 200 1211270[0m
+
+django.server INFO@[15/Feb/2023 15:22:16]: 
+	[m"GET /data/negation HTTP/1.1" 200 693239[0m
+
+django.server INFO@[15/Feb/2023 15:22:16]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 960[0m
+
+django.server INFO@[15/Feb/2023 15:25:55]: 
+	[m"GET /data/negation HTTP/1.1" 200 693239[0m
+
+django.server INFO@[15/Feb/2023 15:30:12]: 
+	[m"GET /data/negation HTTP/1.1" 200 693239[0m
+
+django.server INFO@[15/Feb/2023 15:30:21]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[15/Feb/2023 15:30:24]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719918[0m
+
+django.server INFO@[15/Feb/2023 15:31:57]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719973[0m
+
+django.server INFO@[15/Feb/2023 15:38:07]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719972[0m
+
+django.server INFO@[15/Feb/2023 15:38:12]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719972[0m
+
+django.server INFO@[15/Feb/2023 15:41:35]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[15/Feb/2023 15:41:43]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719978[0m
+
+django.server INFO@[15/Feb/2023 15:43:20]: 
+	[m"POST /predict/ HTTP/1.1" 200 774[0m
+
+django.server INFO@[15/Feb/2023 15:43:26]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719997[0m
+
+django.server INFO@[15/Feb/2023 15:46:24]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719997[0m
+
+django.server INFO@[15/Feb/2023 15:46:24]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[15/Feb/2023 15:46:41]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719968[0m
+
+django.server INFO@[15/Feb/2023 15:54:36]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[15/Feb/2023 15:54:41]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719933[0m
+
+django.server INFO@[15/Feb/2023 15:54:50]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719938[0m
+
+django.server INFO@[15/Feb/2023 15:55:52]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[15/Feb/2023 15:56:01]: 
+	[m"POST /predict/ HTTP/1.1" 200 730[0m
+
+django.server INFO@[15/Feb/2023 15:56:07]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719997[0m
+
+django.server INFO@[15/Feb/2023 15:56:22]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719971[0m
+
+django.server INFO@[15/Feb/2023 15:56:34]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719970[0m
+
+django.server INFO@[15/Feb/2023 15:56:59]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719971[0m
+
+django.server INFO@[15/Feb/2023 16:01:42]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[15/Feb/2023 16:01:49]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720081[0m
+
+django.server INFO@[15/Feb/2023 16:02:10]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720082[0m
+
+django.server INFO@[15/Feb/2023 16:06:19]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[15/Feb/2023 16:06:24]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720114[0m
+
+django.server INFO@[15/Feb/2023 16:06:45]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720136[0m
+
+django.server INFO@[15/Feb/2023 16:08:26]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720043[0m
+
+django.server INFO@[15/Feb/2023 16:09:36]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720119[0m
+
+django.server INFO@[15/Feb/2023 16:09:46]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720119[0m
+
+django.server INFO@[15/Feb/2023 16:10:09]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720119[0m
+
+django.server INFO@[15/Feb/2023 18:59:59]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[15/Feb/2023 19:00:00]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[15/Feb/2023 19:00:02]: 
+	[m"GET /predict/ HTTP/1.1" 200 645[0m
+
+django.server INFO@[15/Feb/2023 19:00:15]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720128[0m
+
+django.server INFO@[15/Feb/2023 19:00:32]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720117[0m
+
+django.server INFO@[15/Feb/2023 19:00:47]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720137[0m
+
+django.server INFO@[15/Feb/2023 19:01:14]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720161[0m
+
+django.server INFO@[15/Feb/2023 19:03:14]: 
+	[m"GET /predict/ HTTP/1.1" 200 630[0m
+
+django.server INFO@[15/Feb/2023 19:03:26]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720146[0m
+
+django.server INFO@[15/Feb/2023 19:03:36]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720101[0m
+
+django.server INFO@[15/Feb/2023 19:04:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720118[0m
+
+django.server INFO@[15/Feb/2023 19:04:52]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720168[0m
+
+django.server INFO@[15/Feb/2023 19:05:54]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720056[0m
+
+django.server INFO@[15/Feb/2023 19:05:58]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720056[0m
+
+django.server INFO@[15/Feb/2023 19:07:00]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720148[0m
+
+django.server INFO@[15/Feb/2023 19:08:44]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720144[0m
+
+django.server INFO@[15/Feb/2023 19:09:41]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720146[0m
+
+django.server INFO@[15/Feb/2023 19:10:44]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720147[0m
+
+django.server INFO@[15/Feb/2023 19:11:58]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720145[0m
+
+django.server INFO@[15/Feb/2023 19:12:04]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720108[0m
+
+django.server INFO@[15/Feb/2023 19:12:11]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720102[0m
+
+django.server INFO@[15/Feb/2023 19:15:06]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720103[0m
+
+django.server INFO@[15/Feb/2023 19:15:23]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720132[0m
+
+django.server INFO@[15/Feb/2023 19:15:37]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720103[0m
+
+django.server INFO@[15/Feb/2023 19:17:17]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720105[0m
+
+django.server INFO@[15/Feb/2023 19:17:20]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720105[0m
+
+django.server INFO@[15/Feb/2023 19:17:34]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720111[0m
+
+django.server INFO@[15/Feb/2023 19:17:56]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720111[0m
+
+django.server INFO@[15/Feb/2023 19:18:09]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720105[0m
+
+django.server INFO@[15/Feb/2023 19:19:22]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720102[0m
+
+django.server INFO@[15/Feb/2023 19:20:46]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720103[0m
+
+django.server INFO@[15/Feb/2023 19:21:44]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720106[0m
+
+django.server INFO@[15/Feb/2023 19:22:09]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720137[0m
+
+django.server INFO@[15/Feb/2023 19:22:17]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720057[0m
+
+django.server INFO@[15/Feb/2023 19:22:43]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720111[0m
+
+django.server INFO@[15/Feb/2023 19:22:53]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720108[0m
+
+django.server INFO@[15/Feb/2023 19:24:19]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720107[0m
+
+django.server INFO@[15/Feb/2023 19:24:28]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720102[0m
+
+django.server INFO@[15/Feb/2023 19:25:32]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720101[0m
+
+django.server INFO@[15/Feb/2023 19:25:53]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720171[0m
+
+django.server INFO@[15/Feb/2023 19:27:49]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720173[0m
+
+django.server INFO@[15/Feb/2023 19:27:58]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720131[0m
+
+django.server INFO@[15/Feb/2023 19:31:13]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720128[0m
+
+django.server INFO@[15/Feb/2023 19:31:27]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720124[0m
+
+django.server INFO@[15/Feb/2023 19:31:37]: 
+	[m"POST /predict/ HTTP/1.1" 200 679[0m
+
+django.server INFO@[15/Feb/2023 19:31:42]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720103[0m
+
+django.server INFO@[15/Feb/2023 19:32:49]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720105[0m
+
+django.server INFO@[15/Feb/2023 19:33:32]: 
+	[m"GET /predict/ HTTP/1.1" 200 630[0m
+
+django.server INFO@[15/Feb/2023 19:33:38]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720105[0m
+
+django.server INFO@[16/Feb/2023 10:29:16]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 10:29:16]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 10:29:19]: 
+	[m"GET /data/ HTTP/1.1" 200 598[0m
+
+django.server INFO@[16/Feb/2023 10:32:59]: 
+	[m"GET /data/ HTTP/1.1" 200 587[0m
+
+django.server INFO@[16/Feb/2023 10:33:01]: 
+	[m"GET /data/ HTTP/1.1" 200 587[0m
+
+django.server INFO@[16/Feb/2023 10:33:34]: 
+	[m"GET /data/ HTTP/1.1" 200 587[0m
+
+django.server INFO@[16/Feb/2023 10:33:55]: 
+	[m"GET /data/ HTTP/1.1" 200 587[0m
+
+django.server INFO@[16/Feb/2023 10:34:09]: 
+	[m"GET /data/ HTTP/1.1" 200 587[0m
+
+django.server INFO@[16/Feb/2023 10:34:11]: 
+	[m"GET /data/ HTTP/1.1" 200 587[0m
+
+django.server ERROR@[16/Feb/2023 10:34:27]: 
+	[35;1m"GET /data/ HTTP/1.1" 500 153942[0m
+
+django.server ERROR@[16/Feb/2023 10:34:49]: 
+	[35;1m"GET /data/ HTTP/1.1" 500 153942[0m
+
+django.server ERROR@[16/Feb/2023 10:34:54]: 
+	[35;1m"GET /data/ HTTP/1.1" 500 154207[0m
+
+django.server WARNING@[16/Feb/2023 10:34:55]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3922[0m
+
+django.server INFO@[16/Feb/2023 10:35:10]: 
+	[m"GET /data/ HTTP/1.1" 200 778[0m
+
+django.server INFO@[16/Feb/2023 10:35:37]: 
+	[m"GET /data/ HTTP/1.1" 200 672[0m
+
+django.server INFO@[16/Feb/2023 10:35:44]: 
+	[m"GET /data/ HTTP/1.1" 200 672[0m
+
+django.server INFO@[16/Feb/2023 10:35:44]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 960[0m
+
+django.server WARNING@[16/Feb/2023 10:35:45]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3922[0m
+
+django.server INFO@[16/Feb/2023 10:36:00]: 
+	[m"GET /data/ HTTP/1.1" 200 628[0m
+
+django.server INFO@[16/Feb/2023 10:36:02]: 
+	[m"GET /data/ HTTP/1.1" 200 628[0m
+
+django.server INFO@[16/Feb/2023 11:11:10]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server ERROR@[16/Feb/2023 11:11:17]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 117440[0m
+
+django.server ERROR@[16/Feb/2023 11:56:47]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 74970[0m
+
+django.server ERROR@[16/Feb/2023 11:57:19]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 81852[0m
+
+django.server INFO@[16/Feb/2023 11:57:42]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 320[0m
+
+django.server WARNING@[16/Feb/2023 11:57:43]: 
+	[33m"GET /data/%3Cmodule%20'matplotlib.pyplot'%20from%20'/usr/lib/python3.10/site-packages/matplotlib/pyplot.py'%3E HTTP/1.1" 404 4260[0m
+
+django.server INFO@[16/Feb/2023 11:58:27]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 436[0m
+
+django.server WARNING@[16/Feb/2023 11:58:27]: 
+	[33m"GET /data/%3Cmodule%20'matplotlib.pyplot'%20from%20'/usr/lib/python3.10/site-packages/matplotlib/pyplot.py'%3E HTTP/1.1" 404 4260[0m
+
+django.server INFO@[16/Feb/2023 12:03:03]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 27982[0m
+
+django.server INFO@[16/Feb/2023 12:03:14]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19473[0m
+
+django.server INFO@[16/Feb/2023 12:04:11]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19352[0m
+
+django.server INFO@[16/Feb/2023 12:05:07]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 20949[0m
+
+django.server INFO@[16/Feb/2023 12:05:36]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 20736[0m
+
+django.server INFO@[16/Feb/2023 12:06:03]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 20192[0m
+
+django.server INFO@[16/Feb/2023 12:06:33]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19870[0m
+
+django.server INFO@[16/Feb/2023 12:07:02]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19699[0m
+
+django.server INFO@[16/Feb/2023 12:08:30]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19723[0m
+
+django.server INFO@[16/Feb/2023 12:08:33]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19699[0m
+
+django.server INFO@[16/Feb/2023 12:08:33]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1092[0m
+
+django.server WARNING@[16/Feb/2023 12:08:33]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:09:14]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19633[0m
+
+django.server INFO@[16/Feb/2023 12:09:14]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1118[0m
+
+django.server WARNING@[16/Feb/2023 12:09:14]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:09:27]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19832[0m
+
+django.server INFO@[16/Feb/2023 12:09:28]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1002[0m
+
+django.server WARNING@[16/Feb/2023 12:09:28]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:09:57]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 17160[0m
+
+django.server INFO@[16/Feb/2023 12:09:58]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 994[0m
+
+django.server WARNING@[16/Feb/2023 12:09:58]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:10:38]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19812[0m
+
+django.server INFO@[16/Feb/2023 12:10:38]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1012[0m
+
+django.server WARNING@[16/Feb/2023 12:10:38]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:11:04]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19706[0m
+
+django.server INFO@[16/Feb/2023 12:11:05]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1000[0m
+
+django.server WARNING@[16/Feb/2023 12:11:05]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:11:21]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19879[0m
+
+django.server INFO@[16/Feb/2023 12:11:21]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1036[0m
+
+django.server WARNING@[16/Feb/2023 12:11:21]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:12:21]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19679[0m
+
+django.server INFO@[16/Feb/2023 12:12:21]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1154[0m
+
+django.server INFO@[16/Feb/2023 12:12:42]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19688[0m
+
+django.server INFO@[16/Feb/2023 12:12:43]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:13:43]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 19835[0m
+
+django.server INFO@[16/Feb/2023 12:13:43]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[16/Feb/2023 12:17:07]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 68856[0m
+
+django.server INFO@[16/Feb/2023 12:17:49]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 39262[0m
+
+django.server INFO@[16/Feb/2023 12:17:49]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:18:43]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 39414[0m
+
+django.server INFO@[16/Feb/2023 12:18:43]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:20:40]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 38945[0m
+
+django.server INFO@[16/Feb/2023 12:20:40]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:21:56]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 38871[0m
+
+django.server INFO@[16/Feb/2023 12:21:56]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[16/Feb/2023 12:23:06]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 101858[0m
+
+django.server ERROR@[16/Feb/2023 12:41:22]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 97654[0m
+
+django.server ERROR@[16/Feb/2023 12:42:11]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 97652[0m
+
+django.server ERROR@[16/Feb/2023 12:43:05]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 97364[0m
+
+django.server ERROR@[16/Feb/2023 12:44:25]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 101169[0m
+
+django.server ERROR@[16/Feb/2023 12:46:21]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 97394[0m
+
+django.server ERROR@[16/Feb/2023 12:47:15]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 97528[0m
+
+django.server INFO@[16/Feb/2023 12:48:21]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 33541[0m
+
+django.server INFO@[16/Feb/2023 12:48:21]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:49:07]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 37090[0m
+
+django.server INFO@[16/Feb/2023 12:49:49]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 31879[0m
+
+django.server INFO@[16/Feb/2023 12:50:28]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 31715[0m
+
+django.server INFO@[16/Feb/2023 12:52:54]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 182098[0m
+
+django.server INFO@[16/Feb/2023 12:52:54]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:54:02]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 183733[0m
+
+django.server INFO@[16/Feb/2023 12:54:02]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1161[0m
+
+django.server WARNING@[16/Feb/2023 12:54:02]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 12:55:18]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 85473[0m
+
+django.server INFO@[16/Feb/2023 12:55:18]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1154[0m
+
+django.server INFO@[16/Feb/2023 12:55:55]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 2478[0m
+
+django.server INFO@[16/Feb/2023 12:55:55]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:56:32]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 3234[0m
+
+django.server INFO@[16/Feb/2023 12:56:33]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:57:17]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 194557[0m
+
+django.server INFO@[16/Feb/2023 12:57:17]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:58:06]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 103594[0m
+
+django.server INFO@[16/Feb/2023 12:58:07]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:59:02]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 81282[0m
+
+django.server INFO@[16/Feb/2023 12:59:02]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 12:59:44]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98562[0m
+
+django.server INFO@[16/Feb/2023 12:59:44]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:00:33]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 89714[0m
+
+django.server INFO@[16/Feb/2023 13:00:33]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1154[0m
+
+django.server INFO@[16/Feb/2023 13:01:21]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 80754[0m
+
+django.server INFO@[16/Feb/2023 13:01:21]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1155[0m
+
+django.server WARNING@[16/Feb/2023 13:01:22]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:03:16]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 85155[0m
+
+django.server INFO@[16/Feb/2023 13:03:17]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1183[0m
+
+django.server INFO@[16/Feb/2023 13:04:26]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 88368[0m
+
+django.server INFO@[16/Feb/2023 13:04:26]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1201[0m
+
+django.server INFO@[16/Feb/2023 13:05:35]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98339[0m
+
+django.server INFO@[16/Feb/2023 13:05:35]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1172[0m
+
+django.server INFO@[16/Feb/2023 13:06:13]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98568[0m
+
+django.server INFO@[16/Feb/2023 13:06:13]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1207[0m
+
+django.server WARNING@[16/Feb/2023 13:06:13]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:07:50]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98060[0m
+
+django.server INFO@[16/Feb/2023 13:07:51]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1190[0m
+
+django.server WARNING@[16/Feb/2023 13:07:51]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:09:01]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98661[0m
+
+django.server INFO@[16/Feb/2023 13:09:02]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1201[0m
+
+django.server WARNING@[16/Feb/2023 13:09:02]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:09:41]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98885[0m
+
+django.server INFO@[16/Feb/2023 13:09:42]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1201[0m
+
+django.server WARNING@[16/Feb/2023 13:09:42]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:10:15]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98809[0m
+
+django.server INFO@[16/Feb/2023 13:10:15]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1192[0m
+
+django.server WARNING@[16/Feb/2023 13:10:15]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:10:29]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98631[0m
+
+django.server INFO@[16/Feb/2023 13:10:29]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1191[0m
+
+django.server WARNING@[16/Feb/2023 13:10:30]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:12:45]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:12:45]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1155[0m
+
+django.server INFO@[16/Feb/2023 13:13:23]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:13:24]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1189[0m
+
+django.server WARNING@[16/Feb/2023 13:13:24]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:13:37]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:13:37]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1208[0m
+
+django.server INFO@[16/Feb/2023 13:13:47]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:13:48]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1190[0m
+
+django.server WARNING@[16/Feb/2023 13:13:48]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:14:35]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:14:35]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1212[0m
+
+django.server WARNING@[16/Feb/2023 13:14:35]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:15:29]: 
+	[m"GET /data/ HTTP/1.1" 200 691[0m
+
+django.server INFO@[16/Feb/2023 13:15:29]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:16:31]: 
+	[m"GET /data/ HTTP/1.1" 200 663[0m
+
+django.server INFO@[16/Feb/2023 13:16:31]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1156[0m
+
+django.server WARNING@[16/Feb/2023 13:16:31]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:16:51]: 
+	[m"GET /data/ HTTP/1.1" 200 663[0m
+
+django.server INFO@[16/Feb/2023 13:16:51]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1192[0m
+
+django.server WARNING@[16/Feb/2023 13:16:51]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:18:12]: 
+	[m"GET /data/ HTTP/1.1" 200 598[0m
+
+django.server INFO@[16/Feb/2023 13:18:12]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1192[0m
+
+django.server WARNING@[16/Feb/2023 13:18:12]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:18:22]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:18:22]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1192[0m
+
+django.server WARNING@[16/Feb/2023 13:18:22]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 13:18:53]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 13:18:53]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1155[0m
+
+django.server INFO@[16/Feb/2023 13:18:54]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 13:19:06]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 13:19:06]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1153[0m
+
+django.server INFO@[16/Feb/2023 13:19:13]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 13:19:13]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1153[0m
+
+django.server INFO@[16/Feb/2023 13:19:18]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 13:19:18]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1153[0m
+
+django.server INFO@[16/Feb/2023 13:19:22]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 13:19:23]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1153[0m
+
+django.server INFO@[16/Feb/2023 13:19:28]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 13:19:28]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:19:30]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:19:30]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:19:58]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:19:59]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1154[0m
+
+django.server INFO@[16/Feb/2023 13:20:01]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 13:20:01]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:20:02]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 13:20:03]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:20:13]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 13:20:13]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:20:14]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 13:20:15]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:20:17]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 13:20:17]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 13:20:19]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 13:20:19]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[16/Feb/2023 13:20:29]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 79246[0m
+
+django.server ERROR@[16/Feb/2023 13:21:27]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 79240[0m
+
+django.server INFO@[16/Feb/2023 13:22:05]: 
+	[m"GET /data/negation HTTP/1.1" 200 693239[0m
+
+django.server INFO@[16/Feb/2023 13:22:05]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[16/Feb/2023 15:48:56]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 74026[0m
+
+django.server ERROR@[16/Feb/2023 15:49:35]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 98589[0m
+
+django.server ERROR@[16/Feb/2023 15:50:23]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 145560[0m
+
+django.server ERROR@[16/Feb/2023 15:51:10]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 182338[0m
+
+django.server INFO@[16/Feb/2023 15:51:49]: 
+	[m"GET /data/negation HTTP/1.1" 200 5095057[0m
+
+django.server INFO@[16/Feb/2023 15:51:49]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 15:52:40]: 
+	[m"GET /data/negation HTTP/1.1" 200 4393721[0m
+
+django.server INFO@[16/Feb/2023 15:53:51]: 
+	[m"GET /data/negation HTTP/1.1" 200 3719367[0m
+
+django.server INFO@[16/Feb/2023 15:55:17]: 
+	[m"GET /data/negation HTTP/1.1" 200 3719484[0m
+
+django.server INFO@[16/Feb/2023 16:01:49]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720166[0m
+
+django.server INFO@[16/Feb/2023 16:03:20]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720047[0m
+
+django.server INFO@[16/Feb/2023 16:05:25]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720545[0m
+
+django.server INFO@[16/Feb/2023 16:09:19]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:09:19]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1154[0m
+
+django.server INFO@[16/Feb/2023 16:09:32]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 16:09:52]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98761[0m
+
+django.server INFO@[16/Feb/2023 16:10:30]: 
+	[m"GET /data/ HTTP/1.1" 200 657[0m
+
+django.server INFO@[16/Feb/2023 16:11:19]: 
+	[m"GET /data/ HTTP/1.1" 200 672[0m
+
+django.server INFO@[16/Feb/2023 16:11:22]: 
+	[m"GET /data/ HTTP/1.1" 200 672[0m
+
+django.server INFO@[16/Feb/2023 16:11:53]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[16/Feb/2023 16:12:02]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 16:12:48]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 16:12:49]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1169[0m
+
+django.server WARNING@[16/Feb/2023 16:12:49]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:13:02]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 16:13:03]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1159[0m
+
+django.server WARNING@[16/Feb/2023 16:13:03]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:13:07]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[16/Feb/2023 16:13:07]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:13:10]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:13:10]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:13:35]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:13:35]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1159[0m
+
+django.server WARNING@[16/Feb/2023 16:13:36]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:13:42]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:13:42]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1159[0m
+
+django.server WARNING@[16/Feb/2023 16:13:43]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:13:52]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:13:53]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1159[0m
+
+django.server WARNING@[16/Feb/2023 16:13:53]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:14:02]: 
+	[32m"GET /predict/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:14:13]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:14:13]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1187[0m
+
+django.server WARNING@[16/Feb/2023 16:14:14]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:14:23]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:14:24]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1192[0m
+
+django.server WARNING@[16/Feb/2023 16:14:25]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:14:37]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:14:37]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1186[0m
+
+django.server WARNING@[16/Feb/2023 16:14:38]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:14:58]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720574[0m
+
+django.server INFO@[16/Feb/2023 16:14:58]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1213[0m
+
+django.server WARNING@[16/Feb/2023 16:14:59]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:17:06]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720748[0m
+
+django.server INFO@[16/Feb/2023 16:17:06]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1159[0m
+
+django.server WARNING@[16/Feb/2023 16:17:07]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:17:20]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:17:20]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1159[0m
+
+django.server WARNING@[16/Feb/2023 16:17:21]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:18:38]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:18:38]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1205[0m
+
+django.server WARNING@[16/Feb/2023 16:18:39]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:18:50]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:18:50]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1205[0m
+
+django.server WARNING@[16/Feb/2023 16:18:51]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:19:05]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:19:06]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1205[0m
+
+django.server WARNING@[16/Feb/2023 16:19:06]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:19:20]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:19:21]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1197[0m
+
+django.server WARNING@[16/Feb/2023 16:19:21]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:19:35]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:19:35]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1197[0m
+
+django.server WARNING@[16/Feb/2023 16:19:36]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:19:45]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:19:45]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1215[0m
+
+django.server WARNING@[16/Feb/2023 16:19:46]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:19:57]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:19:58]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1197[0m
+
+django.server WARNING@[16/Feb/2023 16:19:59]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:20:21]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:20:22]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1219[0m
+
+django.server WARNING@[16/Feb/2023 16:20:22]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:20:30]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:20:30]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1219[0m
+
+django.server WARNING@[16/Feb/2023 16:20:31]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:20:35]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[16/Feb/2023 16:20:35]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:20:47]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 16:20:47]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:20:49]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 16:20:49]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:20:51]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 16:20:51]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:21:00]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 16:21:01]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1219[0m
+
+django.server WARNING@[16/Feb/2023 16:21:01]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:21:04]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[16/Feb/2023 16:21:05]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:21:08]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720756[0m
+
+django.server INFO@[16/Feb/2023 16:21:08]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:21:23]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[16/Feb/2023 16:21:24]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:22:00]: 
+	[m"GET / HTTP/1.1" 200 554[0m
+
+django.server INFO@[16/Feb/2023 16:22:00]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1218[0m
+
+django.server INFO@[16/Feb/2023 16:22:59]: 
+	[m"GET / HTTP/1.1" 200 612[0m
+
+django.server INFO@[16/Feb/2023 16:23:00]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1251[0m
+
+django.server WARNING@[16/Feb/2023 16:23:00]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:23:09]: 
+	[m"GET / HTTP/1.1" 200 612[0m
+
+django.server INFO@[16/Feb/2023 16:23:09]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1257[0m
+
+django.server WARNING@[16/Feb/2023 16:23:09]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:23:21]: 
+	[m"GET / HTTP/1.1" 200 612[0m
+
+django.server INFO@[16/Feb/2023 16:23:21]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1277[0m
+
+django.server WARNING@[16/Feb/2023 16:23:21]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:23:32]: 
+	[m"GET / HTTP/1.1" 200 612[0m
+
+django.server INFO@[16/Feb/2023 16:23:32]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1294[0m
+
+django.server WARNING@[16/Feb/2023 16:23:32]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:23:38]: 
+	[m"GET / HTTP/1.1" 200 612[0m
+
+django.server INFO@[16/Feb/2023 16:23:39]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1293[0m
+
+django.server WARNING@[16/Feb/2023 16:23:39]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:24:08]: 
+	[m"GET / HTTP/1.1" 200 612[0m
+
+django.server INFO@[16/Feb/2023 16:24:08]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1316[0m
+
+django.server WARNING@[16/Feb/2023 16:24:08]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:24:46]: 
+	[m"GET / HTTP/1.1" 200 615[0m
+
+django.server INFO@[16/Feb/2023 16:24:47]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1316[0m
+
+django.server WARNING@[16/Feb/2023 16:24:47]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+user_logger INFO@[16/Feb/2023 16:24:55,456]: 
+	User 'dev' logged out.
+
+django.server INFO@[16/Feb/2023 16:24:55]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:24:55]: 
+	[m"GET / HTTP/1.1" 200 371[0m
+
+django.server INFO@[16/Feb/2023 16:24:55]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:24:57]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:24:57]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+user_logger INFO@[16/Feb/2023 16:25:02,798]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[16/Feb/2023 16:25:02]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:25:03]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:25:03]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:25:26]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:25:26]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1323[0m
+
+django.server WARNING@[16/Feb/2023 16:25:26]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:25:31]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:25:31]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1316[0m
+
+django.server WARNING@[16/Feb/2023 16:25:31]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:25:36]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:25:36]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1297[0m
+
+django.server WARNING@[16/Feb/2023 16:25:37]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:25:42]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:25:42]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1274[0m
+
+django.server WARNING@[16/Feb/2023 16:25:42]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:25:47]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:25:47]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1257[0m
+
+django.server WARNING@[16/Feb/2023 16:25:47]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:25:56]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:25:56]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1256[0m
+
+django.server WARNING@[16/Feb/2023 16:25:56]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:26:05]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:26:05]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1274[0m
+
+django.server WARNING@[16/Feb/2023 16:26:05]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:26:13]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:26:13]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1291[0m
+
+django.server WARNING@[16/Feb/2023 16:26:14]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+user_logger INFO@[16/Feb/2023 16:26:17,002]: 
+	User 'test' logged out.
+
+django.server INFO@[16/Feb/2023 16:26:17]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:26:17]: 
+	[m"GET / HTTP/1.1" 200 371[0m
+
+django.server INFO@[16/Feb/2023 16:26:17]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:26:18]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:26:19]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+user_logger INFO@[16/Feb/2023 16:26:23,078]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[16/Feb/2023 16:26:23]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:26:23]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:26:23]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:26:29]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:26:30]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1290[0m
+
+django.server WARNING@[16/Feb/2023 16:26:30]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:26:44]: 
+	[m"GET / HTTP/1.1" 200 577[0m
+
+django.server INFO@[16/Feb/2023 16:26:45]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1298[0m
+
+django.server WARNING@[16/Feb/2023 16:26:45]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:28:02]: 
+	[m"GET / HTTP/1.1" 200 584[0m
+
+django.server INFO@[16/Feb/2023 16:28:02]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1298[0m
+
+django.server WARNING@[16/Feb/2023 16:28:02]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:28:12]: 
+	[m"GET / HTTP/1.1" 200 582[0m
+
+django.server INFO@[16/Feb/2023 16:28:12]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1298[0m
+
+django.server WARNING@[16/Feb/2023 16:28:13]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:28:42]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:28:42]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1279[0m
+
+django.server WARNING@[16/Feb/2023 16:28:42]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:29:31]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:29:31]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1298[0m
+
+django.server WARNING@[16/Feb/2023 16:29:32]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:29:38]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:29:38]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1299[0m
+
+django.server WARNING@[16/Feb/2023 16:29:38]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:29:45]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:29:46]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1318[0m
+
+django.server WARNING@[16/Feb/2023 16:29:46]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:29:50]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:29:51]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1319[0m
+
+django.server WARNING@[16/Feb/2023 16:29:51]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:30:09]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:30:09]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1319[0m
+
+django.server WARNING@[16/Feb/2023 16:30:09]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:30:20]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:30:20]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1235[0m
+
+django.server WARNING@[16/Feb/2023 16:30:20]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:30:28]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:30:28]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1251[0m
+
+django.server WARNING@[16/Feb/2023 16:30:29]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:30:44]: 
+	[m"GET / HTTP/1.1" 200 572[0m
+
+django.server INFO@[16/Feb/2023 16:30:44]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1275[0m
+
+django.server WARNING@[16/Feb/2023 16:30:45]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:31:11]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:31:11]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1312[0m
+
+django.server WARNING@[16/Feb/2023 16:31:12]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:31:30]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:31:30]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1314[0m
+
+django.server WARNING@[16/Feb/2023 16:31:30]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:31:40]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:31:40]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1310[0m
+
+django.server WARNING@[16/Feb/2023 16:31:40]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:31:46]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:31:47]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1310[0m
+
+django.server WARNING@[16/Feb/2023 16:31:47]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:31:54]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:31:54]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1310[0m
+
+django.server WARNING@[16/Feb/2023 16:31:54]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:32:06]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:32:06]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1330[0m
+
+django.server WARNING@[16/Feb/2023 16:32:07]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+user_logger INFO@[16/Feb/2023 16:32:19,353]: 
+	User 'test' logged out.
+
+django.server INFO@[16/Feb/2023 16:32:19]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:32:19]: 
+	[m"GET / HTTP/1.1" 200 430[0m
+
+django.server INFO@[16/Feb/2023 16:32:19]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:32:30]: 
+	[m"GET / HTTP/1.1" 200 430[0m
+
+django.server INFO@[16/Feb/2023 16:32:30]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1329[0m
+
+django.server WARNING@[16/Feb/2023 16:32:30]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:32:35]: 
+	[m"GET / HTTP/1.1" 200 430[0m
+
+django.server INFO@[16/Feb/2023 16:32:35]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1309[0m
+
+django.server WARNING@[16/Feb/2023 16:32:35]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:32:39]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:32:39]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+user_logger INFO@[16/Feb/2023 16:32:44,677]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[16/Feb/2023 16:32:44]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:32:44]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:32:45]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:32:56]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:32:56]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1249[0m
+
+django.server WARNING@[16/Feb/2023 16:32:57]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:33:08]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:33:08]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1265[0m
+
+django.server WARNING@[16/Feb/2023 16:33:08]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:33:32]: 
+	[m"GET / HTTP/1.1" 200 608[0m
+
+django.server INFO@[16/Feb/2023 16:33:32]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1265[0m
+
+django.server WARNING@[16/Feb/2023 16:33:32]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:33:36]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:33:36]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:34:03]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:34:03]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1298[0m
+
+django.server WARNING@[16/Feb/2023 16:34:04]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:34:15]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:34:16]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1296[0m
+
+django.server WARNING@[16/Feb/2023 16:34:16]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:34:57]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:34:58]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1265[0m
+
+django.server WARNING@[16/Feb/2023 16:34:58]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:35:14]: 
+	[m"GET / HTTP/1.1" 200 595[0m
+
+django.server INFO@[16/Feb/2023 16:35:14]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1218[0m
+
+django.server WARNING@[16/Feb/2023 16:35:14]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:35:32]: 
+	[m"GET / HTTP/1.1" 200 473[0m
+
+django.server INFO@[16/Feb/2023 16:35:32]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1218[0m
+
+django.server WARNING@[16/Feb/2023 16:35:32]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:35:48]: 
+	[m"GET / HTTP/1.1" 200 473[0m
+
+django.server INFO@[16/Feb/2023 16:35:49]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1241[0m
+
+django.server WARNING@[16/Feb/2023 16:35:49]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:36:01]: 
+	[m"GET / HTTP/1.1" 200 463[0m
+
+django.server INFO@[16/Feb/2023 16:36:02]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1241[0m
+
+django.server WARNING@[16/Feb/2023 16:36:02]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:36:53]: 
+	[m"GET / HTTP/1.1" 200 493[0m
+
+django.server INFO@[16/Feb/2023 16:36:53]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1274[0m
+
+django.server WARNING@[16/Feb/2023 16:36:53]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:37:18]: 
+	[m"GET / HTTP/1.1" 200 500[0m
+
+django.server INFO@[16/Feb/2023 16:37:18]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1274[0m
+
+django.server WARNING@[16/Feb/2023 16:37:18]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:37:24]: 
+	[m"GET / HTTP/1.1" 200 507[0m
+
+django.server INFO@[16/Feb/2023 16:37:24]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1274[0m
+
+django.server WARNING@[16/Feb/2023 16:37:24]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:37:30]: 
+	[m"GET / HTTP/1.1" 200 500[0m
+
+django.server INFO@[16/Feb/2023 16:37:30]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1274[0m
+
+django.server WARNING@[16/Feb/2023 16:37:31]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:37:39]: 
+	[m"GET / HTTP/1.1" 200 493[0m
+
+django.server INFO@[16/Feb/2023 16:37:39]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1274[0m
+
+django.server WARNING@[16/Feb/2023 16:37:39]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:38:01]: 
+	[m"GET / HTTP/1.1" 200 500[0m
+
+django.server INFO@[16/Feb/2023 16:38:01]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1278[0m
+
+django.server WARNING@[16/Feb/2023 16:38:01]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:38:21]: 
+	[m"GET / HTTP/1.1" 200 500[0m
+
+django.server INFO@[16/Feb/2023 16:38:21]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1301[0m
+
+django.server WARNING@[16/Feb/2023 16:38:21]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:38:32]: 
+	[m"GET / HTTP/1.1" 200 500[0m
+
+django.server INFO@[16/Feb/2023 16:38:32]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1278[0m
+
+django.server WARNING@[16/Feb/2023 16:38:32]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+user_logger INFO@[16/Feb/2023 16:38:42,412]: 
+	User 'test' logged out.
+
+django.server INFO@[16/Feb/2023 16:38:42]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:38:42]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:38:42]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:38:59]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:38:59]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1271[0m
+
+django.server WARNING@[16/Feb/2023 16:38:59]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:39:04]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:39:04]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1278[0m
+
+django.server WARNING@[16/Feb/2023 16:39:04]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:39:12]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:39:13]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1257[0m
+
+django.server WARNING@[16/Feb/2023 16:39:13]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:39:16]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:39:16]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1278[0m
+
+django.server WARNING@[16/Feb/2023 16:39:16]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:40:04]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:40:04]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1303[0m
+
+django.server WARNING@[16/Feb/2023 16:40:04]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:40:14]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:40:15]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1278[0m
+
+django.server WARNING@[16/Feb/2023 16:40:15]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:40:28]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:40:28]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:40:28]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:41:19]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:41:19]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1250[0m
+
+django.server WARNING@[16/Feb/2023 16:41:19]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:41:57]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:41:58]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1224[0m
+
+django.server WARNING@[16/Feb/2023 16:41:58]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:42:02]: 
+	[m"GET / HTTP/1.1" 200 353[0m
+
+django.server INFO@[16/Feb/2023 16:42:02]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:42:02]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:43:32]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[16/Feb/2023 16:43:33]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:43:33]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:43:40]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:43:40]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+user_logger INFO@[16/Feb/2023 16:43:45,649]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[16/Feb/2023 16:43:45]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:43:45]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[16/Feb/2023 16:43:46]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:43:53]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:43:54]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+user_logger INFO@[16/Feb/2023 16:43:59,491]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[16/Feb/2023 16:43:59]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:43:59]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:44:24]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:44:24]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1291[0m
+
+django.server WARNING@[16/Feb/2023 16:44:25]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:44:34]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:44:34]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:44:34]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:44:44]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:44:45]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:44:45]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:44:55]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:44:55]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:44:55]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:45:15]: 
+	[m"GET / HTTP/1.1" 200 528[0m
+
+django.server INFO@[16/Feb/2023 16:45:15]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:45:15]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:45:26]: 
+	[m"GET / HTTP/1.1" 200 528[0m
+
+django.server INFO@[16/Feb/2023 16:45:26]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:45:26]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:45:36]: 
+	[m"GET / HTTP/1.1" 200 532[0m
+
+django.server INFO@[16/Feb/2023 16:45:36]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:45:36]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:45:48]: 
+	[m"GET / HTTP/1.1" 200 532[0m
+
+django.server INFO@[16/Feb/2023 16:45:48]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1296[0m
+
+django.server WARNING@[16/Feb/2023 16:45:48]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:45:54]: 
+	[m"GET / HTTP/1.1" 200 532[0m
+
+django.server INFO@[16/Feb/2023 16:45:54]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1315[0m
+
+django.server WARNING@[16/Feb/2023 16:45:54]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:46:01]: 
+	[m"GET / HTTP/1.1" 200 532[0m
+
+django.server INFO@[16/Feb/2023 16:46:01]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:46:02]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:46:08]: 
+	[m"GET / HTTP/1.1" 200 528[0m
+
+django.server INFO@[16/Feb/2023 16:46:08]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:46:09]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:46:16]: 
+	[m"GET / HTTP/1.1" 200 528[0m
+
+django.server INFO@[16/Feb/2023 16:46:16]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:46:16]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:46:23]: 
+	[m"GET / HTTP/1.1" 200 528[0m
+
+django.server INFO@[16/Feb/2023 16:46:23]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:46:23]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:46:31]: 
+	[m"GET / HTTP/1.1" 200 521[0m
+
+django.server INFO@[16/Feb/2023 16:46:32]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:46:32]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:46:38]: 
+	[m"GET / HTTP/1.1" 200 521[0m
+
+django.server INFO@[16/Feb/2023 16:46:38]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1273[0m
+
+django.server WARNING@[16/Feb/2023 16:46:38]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:47:10]: 
+	[m"GET / HTTP/1.1" 200 511[0m
+
+django.server INFO@[16/Feb/2023 16:47:11]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1312[0m
+
+django.server WARNING@[16/Feb/2023 16:47:11]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:47:24]: 
+	[m"GET / HTTP/1.1" 200 511[0m
+
+django.server INFO@[16/Feb/2023 16:47:24]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1315[0m
+
+django.server WARNING@[16/Feb/2023 16:47:24]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:47:33]: 
+	[m"GET / HTTP/1.1" 200 511[0m
+
+django.server INFO@[16/Feb/2023 16:47:33]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1315[0m
+
+django.server WARNING@[16/Feb/2023 16:47:33]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:47:42]: 
+	[m"GET / HTTP/1.1" 200 511[0m
+
+django.server INFO@[16/Feb/2023 16:47:42]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1312[0m
+
+django.server WARNING@[16/Feb/2023 16:47:42]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:47:51]: 
+	[m"GET / HTTP/1.1" 200 511[0m
+
+django.server INFO@[16/Feb/2023 16:47:51]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1315[0m
+
+django.server WARNING@[16/Feb/2023 16:47:51]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:47:56]: 
+	[m"GET / HTTP/1.1" 200 511[0m
+
+django.server INFO@[16/Feb/2023 16:47:56]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1295[0m
+
+django.server WARNING@[16/Feb/2023 16:47:56]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:48:06]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:48:06]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1295[0m
+
+django.server WARNING@[16/Feb/2023 16:48:06]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:48:17]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:48:17]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1295[0m
+
+django.server WARNING@[16/Feb/2023 16:48:17]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+user_logger INFO@[16/Feb/2023 16:48:21,413]: 
+	User 'dev' logged out.
+
+django.server INFO@[16/Feb/2023 16:48:21]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:48:21]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[16/Feb/2023 16:48:22]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:48:25]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:48:25]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:49:41]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 660[0m
+
+django.server INFO@[16/Feb/2023 16:49:41]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:50:11]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 669[0m
+
+django.server INFO@[16/Feb/2023 16:50:12]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:50:39]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:50:40]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1319[0m
+
+django.server WARNING@[16/Feb/2023 16:50:40]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+django.server INFO@[16/Feb/2023 16:50:46]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:50:46]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:50:54]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:50:54]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1317[0m
+
+django.server WARNING@[16/Feb/2023 16:50:54]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3926[0m
+
+user_logger INFO@[16/Feb/2023 16:51:00,417]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[16/Feb/2023 16:51:00]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:51:00]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[16/Feb/2023 16:51:00]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:51:02]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[16/Feb/2023 16:51:02]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+user_logger INFO@[16/Feb/2023 16:51:07,607]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[16/Feb/2023 16:51:07]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[16/Feb/2023 16:51:07]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:51:07]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:51:10]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[16/Feb/2023 16:51:11]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 16:51:16]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 16:51:16]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 19:28:53]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[16/Feb/2023 19:28:53]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[16/Feb/2023 19:28:56]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720780[0m
+
+django.server INFO@[16/Feb/2023 19:30:19]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720781[0m
+
+django.server INFO@[16/Feb/2023 19:34:39]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[16/Feb/2023 19:34:42]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[16/Feb/2023 19:34:44]: 
+	[m"GET /predict/ HTTP/1.1" 200 630[0m
+
+django.server INFO@[16/Feb/2023 19:34:49]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720098[0m
+
+django.server INFO@[16/Feb/2023 19:35:13]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:15:27]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[17/Feb/2023 14:15:27]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[17/Feb/2023 14:15:31]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:15:33]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[17/Feb/2023 14:15:57]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720781[0m
+
+django.server INFO@[17/Feb/2023 14:21:18]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[17/Feb/2023 14:21:28]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98658[0m
+
+django.server INFO@[17/Feb/2023 14:26:24]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[17/Feb/2023 14:26:28]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:26:29]: 
+	[m"GET /predict/ HTTP/1.1" 200 630[0m
+
+django.server INFO@[17/Feb/2023 14:26:52]: 
+	[m"POST /predict/ HTTP/1.1" 200 769[0m
+
+django.server INFO@[17/Feb/2023 14:27:00]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720133[0m
+
+django.server INFO@[17/Feb/2023 14:30:07]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:30:09]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[17/Feb/2023 14:30:13]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720781[0m
+
+django.server INFO@[17/Feb/2023 14:33:57]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[17/Feb/2023 14:34:01]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:34:08]: 
+	[m"GET /predict/ HTTP/1.1" 200 630[0m
+
+django.server INFO@[17/Feb/2023 14:34:13]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720129[0m
+
+django.server INFO@[17/Feb/2023 14:34:16]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:34:18]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[17/Feb/2023 14:34:39]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:34:50]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[17/Feb/2023 14:34:56,122]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[17/Feb/2023 14:34:56]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[17/Feb/2023 14:34:56]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[17/Feb/2023 14:35:00]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[17/Feb/2023 14:35:08,344]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[17/Feb/2023 14:35:08]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[17/Feb/2023 14:35:08]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:35:11]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[17/Feb/2023 14:35:40]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+user_logger INFO@[17/Feb/2023 14:35:43,766]: 
+	User 'dev' logged out.
+
+django.server INFO@[17/Feb/2023 14:35:43]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[17/Feb/2023 14:35:43]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[17/Feb/2023 14:35:45]: 
+	[32m"GET /predict/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[17/Feb/2023 14:35:45]: 
+	[m"GET /login/?next=/predict/ HTTP/1.1" 200 659[0m
+
+django.server INFO@[17/Feb/2023 14:35:50]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[17/Feb/2023 14:36:10]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[17/Feb/2023 14:36:17,480]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[17/Feb/2023 14:36:17]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[17/Feb/2023 14:36:17]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 14:48:18]: 
+	[m"GET /data/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[17/Feb/2023 16:10:28]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 16:10:30]: 
+	[m"GET /predict/ HTTP/1.1" 200 630[0m
+
+django.server INFO@[17/Feb/2023 16:10:48]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720129[0m
+
+django.server INFO@[17/Feb/2023 16:11:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720094[0m
+
+django.server INFO@[17/Feb/2023 16:14:56]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720098[0m
+
+django.server INFO@[17/Feb/2023 16:15:15]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720139[0m
+
+django.server INFO@[17/Feb/2023 16:22:36]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720158[0m
+
+django.server INFO@[17/Feb/2023 17:26:50]: 
+	[m"POST /predict/ HTTP/1.1" 200 3719853[0m
+
+django.server INFO@[17/Feb/2023 17:26:50]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[17/Feb/2023 17:26:55]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 17:26:58]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[17/Feb/2023 17:26:59]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 17:27:00]: 
+	[m"GET /predict/ HTTP/1.1" 200 412[0m
+
+django.server INFO@[17/Feb/2023 17:27:02]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[17/Feb/2023 17:30:05]: 
+	[m"GET /predict/ HTTP/1.1" 200 412[0m
+
+django.server INFO@[17/Feb/2023 17:30:17]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98687[0m
+
+django.server INFO@[17/Feb/2023 17:31:58]: 
+	[m"GET /predict/ HTTP/1.1" 200 412[0m
+
+django.server INFO@[17/Feb/2023 17:34:34]: 
+	[m"GET /predict/ HTTP/1.1" 200 728[0m
+
+django.server INFO@[17/Feb/2023 17:35:22]: 
+	[m"GET /predict/ HTTP/1.1" 200 729[0m
+
+django.server INFO@[17/Feb/2023 17:36:03]: 
+	[m"GET /predict/ HTTP/1.1" 200 661[0m
+
+django.server INFO@[17/Feb/2023 18:03:45]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720155[0m
+
+django.server INFO@[17/Feb/2023 18:06:44]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720158[0m
+
+django.server INFO@[17/Feb/2023 18:07:04]: 
+	[m"POST /predict/ HTTP/1.1" 200 809[0m
+
+django.server INFO@[17/Feb/2023 18:07:12]: 
+	[m"POST /predict/ HTTP/1.1" 200 798[0m
+
+django.server INFO@[17/Feb/2023 18:07:19]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720173[0m
+
+django.server INFO@[17/Feb/2023 18:08:06]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720173[0m
+
+django.server INFO@[17/Feb/2023 18:08:20]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720166[0m
+
+django.server INFO@[18/Feb/2023 11:35:59]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[18/Feb/2023 11:35:59]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[18/Feb/2023 11:36:00]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[18/Feb/2023 11:36:09]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720137[0m
+
+django.server INFO@[18/Feb/2023 12:06:00]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720140[0m
+
+django.server INFO@[18/Feb/2023 12:06:35]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[18/Feb/2023 12:06:44]: 
+	[m"GET /data/ HTTP/1.1" 200 788[0m
+
+django.server INFO@[18/Feb/2023 12:20:50]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[18/Feb/2023 12:22:23]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[18/Feb/2023 12:22:37]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720160[0m
+
+django.server INFO@[18/Feb/2023 12:24:06]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[18/Feb/2023 12:24:29]: 
+	[m"GET /dev/ HTTP/1.1" 200 3196[0m
+
+django.server INFO@[18/Feb/2023 12:24:37]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[18/Feb/2023 12:24:38]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[18/Feb/2023 12:24:40]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[18/Feb/2023 12:24:44,764]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[18/Feb/2023 12:24:44]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[18/Feb/2023 12:24:44]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+user_logger INFO@[18/Feb/2023 12:24:49,774]: 
+	User 'test' logged out.
+
+django.server INFO@[18/Feb/2023 12:24:49]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[18/Feb/2023 12:24:49]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[18/Feb/2023 12:24:51]: 
+	[32m"GET /predict/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[18/Feb/2023 12:24:51]: 
+	[m"GET /login/?next=/predict/ HTTP/1.1" 200 659[0m
+
+django.server INFO@[18/Feb/2023 12:24:53]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[18/Feb/2023 12:24:54]: 
+	[32m"GET /predict/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[18/Feb/2023 12:24:54]: 
+	[m"GET /login/?next=/predict/ HTTP/1.1" 200 659[0m
+
+user_logger INFO@[18/Feb/2023 12:25:00,397]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[18/Feb/2023 12:25:00]: 
+	[32m"POST /login/?next=/predict/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[18/Feb/2023 12:25:00]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[18/Feb/2023 12:25:02]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[18/Feb/2023 12:25:11]: 
+	[m"GET /data/ HTTP/1.1" 200 788[0m
+
+django.server INFO@[18/Feb/2023 12:25:49]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98700[0m
+
+django.server INFO@[18/Feb/2023 12:26:25]: 
+	[m"GET /data/ HTTP/1.1" 200 788[0m
+
+django.server INFO@[18/Feb/2023 12:26:26]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720781[0m
+
+django.server INFO@[18/Feb/2023 12:27:23]: 
+	[m"GET /data/ HTTP/1.1" 200 788[0m
+
+django.server INFO@[18/Feb/2023 12:27:31]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[18/Feb/2023 12:27:52]: 
+	[m"GET /data/ HTTP/1.1" 200 788[0m
+
+django.server INFO@[18/Feb/2023 12:30:00]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[18/Feb/2023 12:30:01]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[18/Feb/2023 12:30:08]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720149[0m
+
+django.server INFO@[19/Feb/2023 20:45:19]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[19/Feb/2023 20:45:19]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[19/Feb/2023 20:45:21]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[19/Feb/2023 20:45:32]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720170[0m
+
+django.server INFO@[19/Feb/2023 20:46:09]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720170[0m
+
+django.server INFO@[19/Feb/2023 20:46:20]: 
+	[m"POST /predict/ HTTP/1.1" 200 778[0m
+
+django.server INFO@[19/Feb/2023 20:46:25]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720147[0m
+
+django.server INFO@[19/Feb/2023 20:47:20]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[19/Feb/2023 20:50:25]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720145[0m
+
+django.server INFO@[21/Feb/2023 12:33:16]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[21/Feb/2023 12:33:16]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1317[0m
+
+django.server INFO@[21/Feb/2023 12:33:19]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server ERROR@[21/Feb/2023 12:33:28]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 75400[0m
+
+django.server INFO@[21/Feb/2023 12:35:44]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server ERROR@[21/Feb/2023 12:35:55]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 75398[0m
+
+django.server INFO@[21/Feb/2023 12:38:05]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server ERROR@[21/Feb/2023 12:38:37]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 76137[0m
+
+django.server INFO@[21/Feb/2023 12:41:29]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server ERROR@[21/Feb/2023 12:41:54]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 76098[0m
+
+django.server INFO@[21/Feb/2023 12:47:07]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[21/Feb/2023 12:47:27]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720160[0m
+
+django.server INFO@[21/Feb/2023 12:48:25]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720160[0m
+
+django.server ERROR@[21/Feb/2023 12:50:11]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 76623[0m
+
+django.server INFO@[21/Feb/2023 12:52:12]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[21/Feb/2023 12:52:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720160[0m
+
+django.server INFO@[21/Feb/2023 12:53:40]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720160[0m
+
+django.server INFO@[21/Feb/2023 12:55:25]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[21/Feb/2023 12:55:55]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720158[0m
+
+django.server INFO@[21/Feb/2023 12:56:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720131[0m
+
+django.server INFO@[21/Feb/2023 12:56:56]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720126[0m
+
+django.server INFO@[21/Feb/2023 12:57:20]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720145[0m
+
+django.server INFO@[21/Feb/2023 12:57:56]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720184[0m
+
+django.server INFO@[21/Feb/2023 12:58:10]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720142[0m
+
+django.server INFO@[21/Feb/2023 12:59:18]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720132[0m
+
+django.server INFO@[21/Feb/2023 13:00:24]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720147[0m
+
+django.server INFO@[21/Feb/2023 13:05:51]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720147[0m
+
+django.server INFO@[21/Feb/2023 13:10:09]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720147[0m
+
+django.server INFO@[21/Feb/2023 13:10:29]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720127[0m
+
+django.server INFO@[21/Feb/2023 13:11:28]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720146[0m
+
+django.server INFO@[21/Feb/2023 13:14:10]: 
+	[m"POST /predict/ HTTP/1.1" 200 777[0m
+
+django.server INFO@[21/Feb/2023 13:17:13]: 
+	[m"POST /predict/ HTTP/1.1" 200 812[0m
+
+django.server INFO@[21/Feb/2023 13:18:25]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720138[0m
+
+django.server INFO@[21/Feb/2023 20:04:49]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[21/Feb/2023 20:04:51]: 
+	[m"GET /data/ HTTP/1.1" 200 821[0m
+
+django.server ERROR@[21/Feb/2023 20:04:54]: 
+	[35;1m"GET /data/emotions HTTP/1.1" 500 68969[0m
+
+django.server INFO@[21/Feb/2023 20:05:39]: 
+	[m"GET /data/ HTTP/1.1" 200 821[0m
+
+django.server ERROR@[21/Feb/2023 20:06:18]: 
+	[35;1m"GET /data/emotions HTTP/1.1" 500 68969[0m
+
+django.server ERROR@[21/Feb/2023 20:09:35]: 
+	[35;1m"GET /data/emotions HTTP/1.1" 500 68813[0m
+
+django.server ERROR@[21/Feb/2023 20:13:46]: 
+	[35;1m"GET /data/emotions HTTP/1.1" 500 68996[0m
+
+django.server ERROR@[21/Feb/2023 20:22:09]: 
+	[35;1m"GET /data/emotions HTTP/1.1" 500 81876[0m
+
+django.server INFO@[21/Feb/2023 20:24:15]: 
+	[m"GET /data/emotions HTTP/1.1" 200 4325034[0m
+
+django.server INFO@[21/Feb/2023 20:24:36]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3719482[0m
+
+django.server INFO@[21/Feb/2023 20:27:06]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720014[0m
+
+django.server INFO@[21/Feb/2023 20:28:56]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720014[0m
+
+django.server INFO@[21/Feb/2023 20:29:02]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720014[0m
+
+django.server INFO@[21/Feb/2023 20:29:03]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1300[0m
+
+django.server WARNING@[21/Feb/2023 20:29:03]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 4103[0m
+
+django.server INFO@[21/Feb/2023 20:29:36]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720041[0m
+
+django.server INFO@[21/Feb/2023 20:29:37]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[21/Feb/2023 20:29:40]: 
+	[32m"GET /data HTTP/1.1" 301 0[0m
+
+django.server INFO@[21/Feb/2023 20:29:40]: 
+	[m"GET /data/ HTTP/1.1" 200 821[0m
+
+django.server INFO@[21/Feb/2023 21:09:26]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[21/Feb/2023 21:09:27]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[22/Feb/2023 15:13:11]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[22/Feb/2023 15:13:11]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[22/Feb/2023 15:13:14]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[22/Feb/2023 15:13:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 736[0m
+
+django.server INFO@[22/Feb/2023 15:13:49]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720152[0m
+
+django.server INFO@[22/Feb/2023 15:18:06]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[22/Feb/2023 15:18:14]: 
+	[m"GET /data/ HTTP/1.1" 200 697[0m
+
+django.server INFO@[22/Feb/2023 15:20:44]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98436[0m
+
+django.server INFO@[22/Feb/2023 20:29:14]: 
+	[m"GET /data/ HTTP/1.1" 200 697[0m
+
+django.server INFO@[22/Feb/2023 20:29:15]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[22/Feb/2023 21:23:30]: 
+	[35;1m"GET / HTTP/1.1" 500 204452[0m
+
+django.server INFO@[22/Feb/2023 21:23:57]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[23/Feb/2023 17:10:22]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+django.server INFO@[23/Feb/2023 17:10:22]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1300[0m
+
+user_logger INFO@[23/Feb/2023 17:10:27,818]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[23/Feb/2023 17:10:27]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[23/Feb/2023 17:10:28]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:10:30]: 
+	[m"GET /dev/ HTTP/1.1" 200 228[0m
+
+django.server INFO@[23/Feb/2023 17:12:04]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server ERROR@[23/Feb/2023 17:12:06]: 
+	[35;1m"GET /data/ HTTP/1.1" 500 181809[0m
+
+django.server ERROR@[23/Feb/2023 17:12:17]: 
+	[35;1m"GET /data/ HTTP/1.1" 500 199817[0m
+
+django.server INFO@[23/Feb/2023 17:12:29]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:13:09]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:13:43]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:13:44]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:13:47]: 
+	[m"GET /dev/ HTTP/1.1" 200 228[0m
+
+django.server INFO@[23/Feb/2023 17:13:48]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:13:50]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:13:52]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:14:25]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:14:27]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:14:39]: 
+	[m"GET /dev/ HTTP/1.1" 200 228[0m
+
+django.server INFO@[23/Feb/2023 17:14:40]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:14:41]: 
+	[m"GET /data/ HTTP/1.1" 200 459[0m
+
+django.server INFO@[23/Feb/2023 17:14:50]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:14:51]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:15:52]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:15:55]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+user_logger INFO@[23/Feb/2023 17:15:56,939]: 
+	User 'dev' logged out.
+
+django.server INFO@[23/Feb/2023 17:15:56]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[23/Feb/2023 17:15:57]: 
+	[m"GET / HTTP/1.1" 200 373[0m
+
+django.server INFO@[23/Feb/2023 17:15:58]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[23/Feb/2023 17:16:04,360]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[23/Feb/2023 17:16:04]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[23/Feb/2023 17:16:04]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:16:07]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:16:26]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:16:37]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:17:37]: 
+	[32m"GET /predict/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[23/Feb/2023 17:17:41]: 
+	[m"GET /data/ HTTP/1.1" 200 450[0m
+
+django.server INFO@[23/Feb/2023 17:17:55]: 
+	[m"GET /data/ HTTP/1.1" 200 450[0m
+
+django.server INFO@[23/Feb/2023 17:18:05]: 
+	[m"GET /data/ HTTP/1.1" 200 757[0m
+
+django.server INFO@[23/Feb/2023 17:18:35]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:19:14]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:19:49]: 
+	[m"GET /data/ HTTP/1.1" 200 451[0m
+
+django.server INFO@[23/Feb/2023 17:19:55]: 
+	[m"GET /data/ HTTP/1.1" 200 751[0m
+
+django.server INFO@[23/Feb/2023 17:23:03]: 
+	[m"GET / HTTP/1.1" 200 518[0m
+
+django.server INFO@[23/Feb/2023 17:26:05]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[23/Feb/2023 17:26:07]: 
+	[m"GET /data/ HTTP/1.1" 200 801[0m
+
+django.server ERROR@[23/Feb/2023 17:56:12]: 
+	[35;1m"GET /data/wordcloud HTTP/1.1" 500 73870[0m
+
+django.server INFO@[23/Feb/2023 18:04:07]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98753[0m
+
+django.server INFO@[23/Feb/2023 18:04:18]: 
+	[m"GET /data/ HTTP/1.1" 200 801[0m
+
+django.server INFO@[23/Feb/2023 18:04:21]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720041[0m
+
+django.server INFO@[23/Feb/2023 18:04:25]: 
+	[m"GET /data/ HTTP/1.1" 200 801[0m
+
+django.server INFO@[23/Feb/2023 18:17:52]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720781[0m
+
+django.server INFO@[23/Feb/2023 18:18:46]: 
+	[m"GET /data/ HTTP/1.1" 200 801[0m
+
+django.server INFO@[23/Feb/2023 18:18:48]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720781[0m
+
+django.server INFO@[23/Feb/2023 18:18:50]: 
+	[m"GET /data/ HTTP/1.1" 200 801[0m
+
+django.server INFO@[23/Feb/2023 18:18:52]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720041[0m
+
+django.server INFO@[23/Feb/2023 18:18:55]: 
+	[m"GET /data/ HTTP/1.1" 200 801[0m
+
+django.server INFO@[23/Feb/2023 18:19:07]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 99083[0m
+
+django.server INFO@[23/Feb/2023 18:19:22]: 
+	[m"GET /data/ HTTP/1.1" 200 801[0m
+
+django.server INFO@[23/Feb/2023 18:21:53]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server INFO@[23/Feb/2023 18:37:29]: 
+	[m"GET /predict/ HTTP/1.1" 200 666[0m
+
+django.server INFO@[23/Feb/2023 18:37:38]: 
+	[m"POST /predict/ HTTP/1.1" 200 745[0m
+
+django.server INFO@[23/Feb/2023 18:37:57]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720158[0m
+
+django.server INFO@[23/Feb/2023 18:42:57]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720156[0m
+
+django.server INFO@[23/Feb/2023 18:45:18]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720156[0m
+
+django.server INFO@[23/Feb/2023 18:45:38]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720161[0m
+
+django.server INFO@[23/Feb/2023 18:48:51]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720161[0m
+
+django.server INFO@[23/Feb/2023 18:48:59]: 
+	[m"GET / HTTP/1.1" 200 488[0m
+
+django.server ERROR@[23/Feb/2023 18:59:39]: 
+	[35;1m"GET / HTTP/1.1" 500 159973[0m
+
+django.server INFO@[23/Feb/2023 19:00:36]: 
+	[m"GET / HTTP/1.1" 200 827[0m
+
+django.server INFO@[23/Feb/2023 19:01:06]: 
+	[m"GET / HTTP/1.1" 200 833[0m
+
+django.server INFO@[23/Feb/2023 19:06:52]: 
+	[m"GET / HTTP/1.1" 200 1104[0m
+
+user_logger INFO@[23/Feb/2023 19:06:56,068]: 
+	User 'dev' logged out.
+
+django.server INFO@[23/Feb/2023 19:06:56]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[23/Feb/2023 19:06:56]: 
+	[m"GET / HTTP/1.1" 200 638[0m
+
+django.server INFO@[23/Feb/2023 19:06:58]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[23/Feb/2023 19:07:02,505]: 
+	Successfully logged in user 'test'
+
+django.server INFO@[23/Feb/2023 19:07:02]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[23/Feb/2023 19:07:02]: 
+	[m"GET / HTTP/1.1" 200 753[0m
+
+django.server INFO@[23/Feb/2023 19:07:33]: 
+	[m"GET / HTTP/1.1" 200 710[0m
+
+django.server INFO@[23/Feb/2023 19:07:53]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 659[0m
+
+user_logger INFO@[23/Feb/2023 19:07:58,567]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[23/Feb/2023 19:07:58]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[23/Feb/2023 19:07:58]: 
+	[m"GET / HTTP/1.1" 200 1068[0m
+
+django.server INFO@[23/Feb/2023 19:08:11]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720037[0m
+
+django.server INFO@[23/Feb/2023 19:08:25]: 
+	[m"GET / HTTP/1.1" 200 1068[0m
+
+django.server ERROR@[23/Feb/2023 19:08:28]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 74110[0m
+
+django.server INFO@[23/Feb/2023 19:10:09]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720037[0m
+
+django.server WARNING@[23/Feb/2023 19:10:15]: 
+	[33m"GET /data/wordmap HTTP/1.1" 404 3425[0m
+
+django.server INFO@[23/Feb/2023 19:10:38]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98781[0m
+
+django.server INFO@[23/Feb/2023 19:10:42]: 
+	[m"GET / HTTP/1.1" 200 1068[0m
+
+django.server ERROR@[23/Feb/2023 19:10:45]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 74110[0m
+
+django.server ERROR@[23/Feb/2023 19:13:45]: 
+	[35;1m"GET /data/negation HTTP/1.1" 500 74628[0m
+
+django.server INFO@[23/Feb/2023 19:19:04]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720793[0m
+
+django.server INFO@[23/Feb/2023 19:19:07]: 
+	[m"GET / HTTP/1.1" 200 1068[0m
+
+django.server INFO@[23/Feb/2023 19:19:23]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 99089[0m
+
+django.server INFO@[23/Feb/2023 19:19:26]: 
+	[m"GET / HTTP/1.1" 200 1068[0m
+
+django.server INFO@[23/Feb/2023 19:19:27]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720063[0m
+
+django.server INFO@[23/Feb/2023 19:19:32]: 
+	[m"GET / HTTP/1.1" 200 1068[0m
+
+django.server INFO@[23/Feb/2023 19:20:32]: 
+	[m"GET / HTTP/1.1" 200 1090[0m
+
+django.server INFO@[23/Feb/2023 19:21:25]: 
+	[m"GET / HTTP/1.1" 200 1090[0m
+
+django.server INFO@[23/Feb/2023 19:21:26]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1300[0m
+
+django.server WARNING@[23/Feb/2023 19:21:26]: 
+	[33m"GET /favicon.ico HTTP/1.1" 404 3422[0m
+
+django.server INFO@[23/Feb/2023 19:21:55]: 
+	[m"GET / HTTP/1.1" 200 1090[0m
+
+django.server INFO@[23/Feb/2023 19:21:55]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 19:22:19]: 
+	[m"GET / HTTP/1.1" 200 1118[0m
+
+django.server INFO@[23/Feb/2023 19:22:20]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 19:22:44]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[23/Feb/2023 19:22:44]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 19:23:33]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98782[0m
+
+django.server INFO@[23/Feb/2023 19:23:34]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 19:24:50]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98758[0m
+
+django.server INFO@[23/Feb/2023 19:24:50]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 19:27:57]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98067[0m
+
+django.server INFO@[23/Feb/2023 19:27:57]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1199[0m
+
+django.server INFO@[23/Feb/2023 19:30:08]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98857[0m
+
+django.server INFO@[23/Feb/2023 19:30:08]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1199[0m
+
+django.server INFO@[23/Feb/2023 19:31:02]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98733[0m
+
+django.server INFO@[23/Feb/2023 19:31:02]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 19:31:34]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 99239[0m
+
+django.server INFO@[23/Feb/2023 19:32:09]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[23/Feb/2023 19:32:10]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 19:51:46]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[23/Feb/2023 19:51:47]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[23/Feb/2023 19:51:52]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 80357[0m
+
+django.server INFO@[23/Feb/2023 19:54:20]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[23/Feb/2023 19:54:42]: 
+	[m"POST /predict/ HTTP/1.1" 200 798[0m
+
+django.server INFO@[23/Feb/2023 19:54:42]: 
+	[m"GET /static/webapp/style.css HTTP/1.1" 200 1199[0m
+
+django.server INFO@[23/Feb/2023 19:55:19]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720123[0m
+
+django.server INFO@[23/Feb/2023 19:55:35]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720122[0m
+
+django.server INFO@[23/Feb/2023 19:55:55]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720137[0m
+
+django.server INFO@[23/Feb/2023 20:06:56]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720199[0m
+
+django.server INFO@[23/Feb/2023 20:06:57]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[23/Feb/2023 20:23:01]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 84139[0m
+
+django.server INFO@[23/Feb/2023 20:25:29]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[23/Feb/2023 20:25:29]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[23/Feb/2023 20:25:57]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 80790[0m
+
+django.server INFO@[23/Feb/2023 20:29:16]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server ERROR@[23/Feb/2023 20:29:41]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 82761[0m
+
+django.server INFO@[23/Feb/2023 20:32:48]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[23/Feb/2023 20:32:49]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[23/Feb/2023 20:33:18]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 82888[0m
+
+django.server INFO@[23/Feb/2023 20:35:29]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server ERROR@[23/Feb/2023 20:35:56]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 76826[0m
+
+django.server INFO@[23/Feb/2023 20:38:03]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server ERROR@[23/Feb/2023 20:38:34]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 89221[0m
+
+django.server INFO@[23/Feb/2023 20:44:07]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[23/Feb/2023 20:44:08]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server ERROR@[23/Feb/2023 20:44:33]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 76286[0m
+
+django.server INFO@[23/Feb/2023 20:47:27]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server ERROR@[23/Feb/2023 20:47:54]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 89439[0m
+
+django.server INFO@[23/Feb/2023 20:50:04]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[23/Feb/2023 20:50:21]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720264[0m
+
+django.server INFO@[23/Feb/2023 20:50:37]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720243[0m
+
+django.server INFO@[23/Feb/2023 20:53:48]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720241[0m
+
+django.server INFO@[23/Feb/2023 20:53:48]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 20:56:37]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720243[0m
+
+django.server INFO@[23/Feb/2023 20:59:30]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720243[0m
+
+django.server INFO@[23/Feb/2023 21:02:53]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720240[0m
+
+django.server INFO@[23/Feb/2023 21:02:53]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[23/Feb/2023 21:06:38]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720208[0m
+
+django.server INFO@[23/Feb/2023 21:08:05]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720227[0m
+
+django.server INFO@[23/Feb/2023 21:11:31]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720172[0m
+
+django.server INFO@[23/Feb/2023 21:12:26]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720194[0m
+
+django.server INFO@[24/Feb/2023 14:50:48]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[24/Feb/2023 14:50:49]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[24/Feb/2023 14:51:07]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[24/Feb/2023 14:51:59]: 
+	[m"POST /predict/ HTTP/1.1" 200 923[0m
+
+django.server ERROR@[24/Feb/2023 15:05:16]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 80713[0m
+
+django.server INFO@[24/Feb/2023 15:09:33]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server ERROR@[24/Feb/2023 15:10:29]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 80668[0m
+
+django.server INFO@[24/Feb/2023 15:11:03]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server ERROR@[24/Feb/2023 15:11:36]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 80675[0m
+
+django.server INFO@[24/Feb/2023 15:15:45]: 
+	[m"GET /predict/ HTTP/1.1" 200 664[0m
+
+django.server INFO@[24/Feb/2023 15:15:59]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720253[0m
+
+django.server INFO@[24/Feb/2023 15:18:41]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720327[0m
+
+django.server INFO@[24/Feb/2023 15:19:30]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720279[0m
+
+django.server INFO@[24/Feb/2023 15:28:17]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720276[0m
+
+django.server INFO@[24/Feb/2023 15:31:18]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720276[0m
+
+django.server INFO@[24/Feb/2023 15:34:56]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720281[0m
+
+django.server INFO@[24/Feb/2023 15:43:32]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720191[0m
+
+django.server INFO@[24/Feb/2023 15:44:10]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720272[0m
+
+django.server INFO@[24/Feb/2023 15:53:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720253[0m
+
+django.server INFO@[24/Feb/2023 15:57:58]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720253[0m
+
+django.server INFO@[24/Feb/2023 16:04:14]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720251[0m
+
+django.server INFO@[24/Feb/2023 16:08:12]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720251[0m
+
+django.server INFO@[24/Feb/2023 16:12:43]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720256[0m
+
+django.server INFO@[24/Feb/2023 16:13:43]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720232[0m
+
+django.server INFO@[24/Feb/2023 16:17:56]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720232[0m
+
+django.server INFO@[24/Feb/2023 16:23:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720294[0m
+
+django.server ERROR@[24/Feb/2023 16:31:29]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 80387[0m
+
+django.server INFO@[24/Feb/2023 16:35:55]: 
+	[m"GET /predict/ HTTP/1.1" 200 682[0m
+
+django.server INFO@[24/Feb/2023 16:36:27]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720184[0m
+
+django.server INFO@[24/Feb/2023 16:37:10]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720296[0m
+
+django.server INFO@[24/Feb/2023 16:42:16]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720296[0m
+
+django.server ERROR@[24/Feb/2023 18:06:21]: 
+	[35;1m"POST /predict/ HTTP/1.1" 500 79592[0m
+
+django.server INFO@[24/Feb/2023 18:09:47]: 
+	[m"GET /predict/ HTTP/1.1" 200 682[0m
+
+django.server INFO@[24/Feb/2023 18:09:48]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[24/Feb/2023 18:10:06]: 
+	[m"POST /predict/ HTTP/1.1" 200 3720245[0m
+
+django.server INFO@[24/Feb/2023 18:10:14]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[24/Feb/2023 18:10:26]: 
+	[m"GET /data/wordcloud HTTP/1.1" 200 98928[0m
+
+django.server INFO@[24/Feb/2023 18:10:55]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[24/Feb/2023 18:10:56]: 
+	[m"GET /data/negation HTTP/1.1" 200 3720793[0m
+
+django.server INFO@[24/Feb/2023 18:11:03]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[24/Feb/2023 18:11:04]: 
+	[m"GET /data/emotions HTTP/1.1" 200 3720063[0m
+
+django.server INFO@[24/Feb/2023 18:11:07]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[08/Mar/2023 22:33:56]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[08/Mar/2023 22:33:56]: 
+	[36m"GET /static/webapp/style.css HTTP/1.1" 304 0[0m
+
+django.server INFO@[08/Mar/2023 22:34:12]: 
+	[m"GET /predict/ HTTP/1.1" 200 682[0m
+
+django.server INFO@[08/Mar/2023 22:35:02]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584082[0m
+
+django.server INFO@[08/Mar/2023 22:35:16]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[08/Mar/2023 22:35:20]: 
+	[m"GET /predict/ HTTP/1.1" 200 682[0m
+
+django.server INFO@[08/Mar/2023 22:36:36]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584292[0m
+
+django.server INFO@[08/Mar/2023 22:37:33]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584128[0m
+
+django.server INFO@[08/Mar/2023 22:38:32]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584161[0m
+
+django.server INFO@[08/Mar/2023 22:38:46]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584161[0m
+
+django.server INFO@[08/Mar/2023 22:38:58]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584161[0m
+
+django.server INFO@[08/Mar/2023 22:39:17]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584163[0m
+
+django.server INFO@[08/Mar/2023 22:39:28]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584162[0m
+
+django.server INFO@[08/Mar/2023 22:39:39]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584161[0m
+
+django.server INFO@[08/Mar/2023 22:40:21]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584151[0m
+
+django.server INFO@[08/Mar/2023 22:40:37]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584061[0m
+
+django.server INFO@[08/Mar/2023 22:41:28]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[08/Mar/2023 22:41:29]: 
+	[m"GET /predict/ HTTP/1.1" 200 682[0m
+
+django.server INFO@[08/Mar/2023 22:41:43]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584061[0m
+
+django.server INFO@[08/Mar/2023 22:42:05]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584151[0m
+
+django.server INFO@[08/Mar/2023 22:42:26]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584098[0m
+
+django.server INFO@[08/Mar/2023 22:42:35]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584105[0m
+
+django.server INFO@[08/Mar/2023 22:42:50]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584152[0m
+
+django.server INFO@[08/Mar/2023 22:43:23]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584105[0m
+
+django.server INFO@[08/Mar/2023 22:43:38]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584120[0m
+
+django.server INFO@[08/Mar/2023 22:44:01]: 
+	[m"POST /predict/ HTTP/1.1" 200 3584058[0m
+
+django.server INFO@[08/Mar/2023 22:44:36]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[08/Mar/2023 22:45:53]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+user_logger INFO@[08/Mar/2023 22:46:30,718]: 
+	User 'dev' logged out.
+
+django.server INFO@[08/Mar/2023 22:46:30]: 
+	[32m"GET /logout/ HTTP/1.1" 302 0[0m
+
+django.server INFO@[08/Mar/2023 22:46:30]: 
+	[m"GET / HTTP/1.1" 200 648[0m
+
+django.server INFO@[08/Mar/2023 22:46:33]: 
+	[m"GET /login/?next=index HTTP/1.1" 200 677[0m
+
+user_logger INFO@[08/Mar/2023 22:46:39,671]: 
+	Successfully logged in user 'dev'
+
+django.server INFO@[08/Mar/2023 22:46:39]: 
+	[32m"POST /login/?next=index HTTP/1.1" 302 0[0m
+
+django.server INFO@[08/Mar/2023 22:46:39]: 
+	[m"GET / HTTP/1.1" 200 1121[0m
+
+django.server INFO@[08/Mar/2023 22:47:45]: 
+	[m"GET /predict/ HTTP/1.1" 200 682[0m
+
+django.server INFO@[08/Mar/2023 22:48:17]: 
+	[m"POST /predict/ HTTP/1.1" 200 822[0m
+
+django.server INFO@[08/Mar/2023 22:48:57]: 
+	[m"POST /predict/ HTTP/1.1" 200 830[0m
+
+django.server INFO@[08/Mar/2023 22:49:03]: 
+	[m"POST /predict/ HTTP/1.1" 200 830[0m
+
+django.server INFO@[08/Mar/2023 22:49:15]: 
+	[m"POST /predict/ HTTP/1.1" 200 829[0m
+
