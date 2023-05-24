@@ -1,0 +1,20 @@
+{% block data %}
+
+<h3>Data</h3>
+<p> 
+    The dataset used for this application is publicly sourced from the following location on Kaggle:
+</p>
+<a href='https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp/' target="_blank">
+    Data Source (External Link)
+</a>
+
+{% if authenticated_user == "Dev Eloper" %}
+<hr />
+<h3> Developer Access - Data Visualizations </h3>
+    {% for key, value in data_vis.items %}
+    <div class = "devblock">
+        {{ value|safe }}
+    </div>
+    {% endfor %}
+{% endif %}
+{% endblock %}

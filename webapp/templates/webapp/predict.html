@@ -1,0 +1,23 @@
+{% extends "./base.html" %}
+{% block title %}
+    Emotion Prediction
+{% endblock %}
+
+{% block content %}
+    {% if piechart %}
+    <div id ="piechart">
+    {{ piechart|safe }}
+    </div>
+        {% if sub %}
+            <p>Emotion Wheel Best Guess: {{ sub }}</p>
+        {% endif %}
+    {% elif result %}
+    {{ result|safe }}
+    {% endif %}
+<form method="POST" action="/predict/">
+    {% csrf_token %}
+    {{ predict_form }}
+    <input type = "Submit"/>
+</form>
+<a href='/'>Return Home</a>
+{% endblock %}

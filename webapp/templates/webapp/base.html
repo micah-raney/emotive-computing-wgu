@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+<title>{% block title %}Default Title{% endblock %}</title>
+</head>
+<body>
+<div id="content">
+{% block content %}{% endblock %}
+</div>
+</body>
+</html>

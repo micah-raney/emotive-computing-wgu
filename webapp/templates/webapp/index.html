@@ -1,0 +1,27 @@
+{% extends "./base.html" %}
+
+{% block title %}
+    {{ pagetitle }}
+{% endblock %}
+
+{% block content %}
+<h2>Emotive Computing Interface Dashboard</h2>
+<div class="userlogin">
+{% if authenticated_user %}
+    <h4>
+        Currently Logged In User: <em>{{ authenticated_user }}</em>
+    </h4>
+    <a href="/logout">Logout</a>
+{% endif %}
+<a href="/login?next=index">
+{% if authenticated_user %}
+Change 
+{% endif %}
+Login
+</a>
+</div>
+<br />
+<a href="/predict/">Make a Prediction</a>
+<hr />
+{% include "./data.html" %}
+{% endblock %}

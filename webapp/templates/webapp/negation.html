@@ -1,0 +1,30 @@
+{% extends "./base.html" %}
+{% block title %}
+    Negation Analysis
+{% endblock %}
+
+{% block content %}
+
+<h3>Study on Presence of Negating Terms in Emotional Context</h3>
+<p>
+    Below, you can see two bar charts, labeled 'Correlation' and 'No Correlation'.
+    A sample was taken of all sentences present in the dataset containing negating terms (not, isn't, etc.)
+    and then comparing the sentences labeled with negative emotions (anger, fear, sadness) vs sentences which contain 
+    negating terms, but represent neutral or positive sentiments (joy, love, surprise).
+</p>
+<p>
+    As you can see, the difference between the two categories in this dataset is rather insignificant.
+</p> 
+<code>greater/lesser = 2728/2056 = 1/1.327 = 75% similarity between the sample sizes.</code>
+<br />
+<p>
+    This means that an ML model which needs to track emotional sentiments in a sentence cannot simply rely on the presence or absence 
+    of negating terms in order to make an inference. While humans can easily tell the difference between "I am having a good day" and "I am not having a good day",
+    an ML model might well struggle to see the difference between those and their logical converses - "I am not having a bad day", and "I am having a not bad day", for example.
+    However, these sample sizes are fairly small; we may see a greater difference on a dataset comparing statistics with millions of data points, rather than merely lower thousands.
+</p>
+<a href='/'>Go Back</a>
+<hr />
+{{ barchart|safe }}
+
+{% endblock%}

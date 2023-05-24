@@ -1,0 +1,20 @@
+{% extends "./base.html" %}
+{% block title %}
+    Emotion Weighting Analysis
+{% endblock %}
+
+{% block content %}
+
+<h3>Emotion Breakdown</h3>
+<p>Below is the total breakdown of emotion labels across the dataset.</p>
+<div id = "piechart">
+{{ piechart|safe }}
+</div>
+<p>
+    The majority of the sentences in the dataset are labeled with joy and sadness, meaning that an ML model training
+    on these sentences is more likely to learn associations to joy and sadness than other emotions. Without bearing
+    these weights in mind while designing the ML model, it will bias heavily toward joy and sadness, rendering the 
+    predictions to be practically unusable.
+</p>
+<a href='/'>Go Back</a>
+{% endblock %}

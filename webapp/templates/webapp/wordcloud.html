@@ -1,0 +1,26 @@
+{% extends "./base.html" %}
+{% block title %}
+    Word Cloud
+{% endblock %}
+
+{% block content %}
+<h3>Word Cloud word commonality diagram</h3>
+<p>
+    The following shows the most and least common words in the dataset. An early theory in development suggested that 
+    words could be encoded according to a linear number scheme to enhance the model's ability to make predictions.
+    Future efforts and research found this approach to be too simplistic: as you can see below, the occurrence of a word
+    does not necessarily correlate toward or against its potential to contain emotional context. 
+</p>
+<div id = "wordcloud">
+    <div class="devblock">
+            <h4>Most common words present in dataset</h4>
+            {{ mostcommon|safe }}
+    </div>
+    <div class="devblock">
+            <h4>Least common words present in dataset</h4>
+            {{ leastcommon|safe }}
+    </div>
+</div>
+<a href="/">Go Back</a>
+
+{% endblock %}
